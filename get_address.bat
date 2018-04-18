@@ -6,4 +6,4 @@ FOR /F "delims=: tokens=2" %%I IN ("%first_ip%") DO (
 git config credential.helper store
 git add --all
 git commit -m "update address"
-git push
+git push -f
